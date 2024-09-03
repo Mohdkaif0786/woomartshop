@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-top">
+              <div class="left">
+                  <div class="country-wraper">
+                      <p>
+                        <img src="images/flag1.svg" alt="" class="flag">
+                        <span class="h-elm">EUR</span>
+                        <span class="arrow-code">&#10095;</span>
+                      </p>
+                      <ul class="dropdown">
+                        <li><img src="images/flag2.svg"  class="flag" alt=""> <span class="h-elm">Canada</span></li>
+                        <li><img src="images/flag3.svg"  class="flag" alt=""> <span class="h-elm">USA</span></li>
+                        <li><img src="images/flag4.svg"  class="flag" alt=""> <span class="h-elm">Japan</span></li>
+                      </ul>
+                  </div>
+                  <div class="menue">
+                    <p class="h-elm">Gift Cards</p>
+                    <p class="h-elm">Showrooms</p>
+                    <p class="h-elm">About Us</p>
+                  </div>
+              </div>
+              <div class="right">  
+                <p><i class="bi bi-telephone-fill"></i><span>(456) 748 8483</span></p> 
+                <div class="contact-with-expert">
+                    <div class="image-wraper">
+                      <img src="images/wd-furniture-contact-expert-65x22.png" alt="">
+                    </div>
+                    <p>Contact with Expert</p>
+                </div>
+              </div>
+        </div>
+        <div class="header-medium">
+            <div class="logo">
+                <img src="images/logo.svg" alt="logo">
+            </div>
+            <div class="input-wraper">
+                <i class="bi bi-search"></i>
+                <input type="text" placeholder="search for products">
+            </div>
+            <div class="icon-wraper  icw-1">
+                <span>&nesear;</span>
+            </div>
+            <div class="icon-wraper icw-2">
+                <i class="bi bi-heart"></i>
+            </div>
+            <button class="login-register-btn btn">
+                <i class="bi bi-person"></i>
+                <span>Login / Register</span>
+            </button>
+
+            <button class="cart-btn btn" id="cart-btn">
+                <i class="bi bi-bag-check-fill"></i>
+                <span>$0.00</span>
+                <p class="zero-circle">0</p>
+            </button>
+        </div>
+        <div class="header-bottom">
+            <div class="category">
+                <p class="categorry-list h-elm">
+                    <img src="images/Chair.svg" alt="">
+                    <span>Chairs</span>
+                </p>
+                <p class="categorry-list h-elm">
+                    <img src="images/wd-furniture-tables-1.svg" alt="">
+                    <span>Tables</span>
+                </p>
+                <p class="categorry-list h-elm">
+                    <img src="images/wd-furniture-sofas-1.svg" alt="">
+                    <span>Sofas</span>
+                </p>
+                <p class="categorry-list h-elm">
+                    <img src="images/wd-furniture-armchair-1.svg" alt="">
+                    <span>Armchair</span>
+                </p>
+                <p class="categorry-list h-elm">
+                    <img src="images/wd-furniture-beds-1.svg" alt="">
+                    <span>Beds</span>
+                </p>
+                <p class="categorry-list h-elm">
+                    <img src="images/wd-furniture-storage-1.svg" alt="">
+                    <span>Storage</span>
+                </p>
+                <p class="categorry-list h-elm">
+                    <img src="images/wd-furniture-textiles-1.svg" alt="">
+                    <span>Textiles</span>
+                </p>
+            </div>
+            <button class="shipping-btn">
+                Free shipping for all orders of $0.04
+            </button>
+        </div>
+        <div class="cart">
+          <i class="bi bi-cart-check"></i>
+          <p class="zero-circle">0</p>
+        </div>
+        <div class="mobile-menue">
+              <div class="menue"><i class="bi bi-list"></i></div>
+               <div class="menue-container">
+                <div class="input-wraper">
+                  <input type="text" placeholder="search your product">
+                  <i class="bi bi-search"></i>
+                </div>
+                <div class="items ">
+                  <div class="item1 item ">
+                    <h3>categories</h3>
+
+                      <div class="category item-content">
+                        <p class="categorry-list h-elm">
+                            <img src="images/Chair.svg" alt="">
+                            <span>Chairs</span>
+                        </p>
+                        <p class="categorry-list h-elm">
+                            <img src="images/wd-furniture-tables-1.svg" alt="">
+                            <span>Tables</span>
+                        </p>
+                        <p class="categorry-list h-elm">
+                            <img src="images/wd-furniture-sofas-1.svg" alt="">
+                            <span>Sofas</span>
+                        </p>
+                        <p class="categorry-list h-elm">
+                            <img src="images/wd-furniture-armchair-1.svg" alt="">
+                            <span>Armchair</span>
+                        </p>
+                        <p class="categorry-list h-elm">
+                            <img src="images/wd-furniture-beds-1.svg" alt="">
+                            <span>Beds</span>
+                        </p>
+                        <p class="categorry-list h-elm">
+                            <img src="images/wd-furniture-storage-1.svg" alt="">
+                            <span>Storage</span>
+                        </p>
+                        <p class="categorry-list h-elm">
+                            <img src="images/wd-furniture-textiles-1.svg" alt="">
+                            <span>Textiles</span>
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="item2  item">
+                  <h3 class=" active-item">Menu</h3>
+                  <div class="menue item-content">
+                    <p class="h-elm">Gift Cards</p>
+                    <p class="h-elm">Showrooms</p>
+                    <p class="h-elm">About Us</p>
+                  </div>
+                </div>
+                </div>
+               </div>
+        </div>
+    </header>
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <!-- Dots/Indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/wd-furniture-blog-11.jpg" class="d-block w-100" alt="Slide 1">
+            <div class="crousel-content">
+                <div class="top">
+                  <img src="images/wd-slide-icon-chair.svg" alt="">
+                  <h3>Discover More products in the <span>Chair</span> dector</h3>
+                </div>
+                <h1>Terracotta vase <br>by <img src="images/furniture-2-slider-1-author-1.png" alt=""> Courtney Henry</h1>
+                <div class="bottom">
+                  <button>Shop Now</button>
+                  <h2>$182</h2>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/wd-furniture-blog-3-650x459.jpg" class="d-block w-100" alt="Slide 2">
+            <div class="crousel-content">
+              <div class="top">
+                <img src="images/wd-slide-icon-decor.svg" alt="" class="icon-2">
+                <h3>Discover More products in the <span>Table</span> Category</h3>
+              </div>
+              <h1>Terracotta vase <br>by <img src="images/furniture-2-slider-2-author-1.png" alt=""> Courtney Henry</h1>
+              <div class="bottom">
+                <button>Shop Now</button>
+                <h2>$381</h2>
+              </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/wd-furniture-blog-4-650x459.jpg" class="d-block w-100" alt="Slide 3">
+            <div class="crousel-content">
+              <div class="top">
+                <img src="images/wd-slide-icon-sofas.svg" alt="" class="icon-3">
+                <h3>Discover More products in the <span>Chair</span> dector</h3>
+              </div>
+              <h1>Terracotta vase <br>by <img src="images/furniture-2-slider-3-author-1.png" alt=""> Courtney Henry</h1>
+              <div class="bottom">
+                <button>Shop Now</button>
+                <h2>$199</h2>
+              </div>
+          </div>
+          </div>
+        </div>
+      
+        <!-- Controls -->
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="categories-section">
+        <h2>Our categories</h2>
+        <p>Lots of new products and product collections</p>
+        <div class="categories-cards">
+           <div class="categories-card">
+            <img src="images/wd-furniture-category-chairs.jpg" alt="">
+            <div class="content">
+              <button>Chairs</button>
+              <p>16 products</p>
+            </div>
+           </div>
+           <div class="categories-card">
+            <img src="images/wd-furniture-category-tables.jpg" alt="">
+            <div class="content">
+              <button>Tables</button>
+              <p>16 products</p>
+            </div>
+           </div>
+           <div class="categories-card">
+            <img src="images/wd-furniture-category-sofas.jpg" alt="">
+            <div class="content">
+              <button>Sofas</button>
+              <p>16 products</p>
+            </div>
+           </div>
+
+           <div class="categories-card">
+            <img src="images/wd-furniture-category-armchairs.jpg" alt="">
+            <div class="content">
+              <button>Armchairs</button>
+              <p>16 products</p>
+            </div>
+           </div>
+
+           <div class="categories-card">
+            <img src="images/wd-furniture-category-beds.jpg" alt="">
+            <div class="content">
+              <button>Beds</button>
+              <p>16 products</p>
+            </div>
+           </div>
+
+           <div class="categories-card">
+            <img src="images/wd-furniture-category-storage.jpg" alt="">
+            <div class="content">
+              <button>Storage</button>
+              <p>16 products</p>
+            </div>
+           </div>
+
+           <div class="categories-card">
+            <img src="images/wd-furniture-category-textiles.jpg" alt="">
+            <div class="content">
+              <button>Textiles</button>
+              <p>16 products</p>
+            </div>
+           </div>
+
+           <div class="categories-card">
+            <img src="images/wd-furniture-category-lighting.jpg" alt="">
+            <div class="content">
+              <button>Lighting</button>
+              <p>16 products</p>
+            </div>
+           </div>
+
+           <div class="categories-card">
+            <img src="images/wd-furniture-category-toys.jpg" alt="">
+            <div class="content">
+              <button>Toys</button>
+              <p>16 products</p>
+            </div>
+           </div>
+           
+           <div class="categories-card">
+            <img src="images/wd-furniture-category-decor.jpg" alt="">
+            <div class="content">
+              <button>Decor</button>
+              <p>16 products</p>
+            </div>
+           </div>
+           
+        </div>
+    </div>
+    <div class="overlay"></div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
